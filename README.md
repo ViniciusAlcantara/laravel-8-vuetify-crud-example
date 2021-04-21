@@ -7,6 +7,20 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Instruções de Instalação
+
+Para utilizar, basta rodar os seguintes comandos:
+- composer install
+- npm install
+
+O CRUD funciona utilizando sqlite, portanto o setup básico de banco de dados já está pronto.
+
+## Estrutura de Arquivos
+Além de Laravel, esse CRUD também utiliza Vue e Vuetify (para os componentes do front).
+
+Os arquivos do vue podem ser encontrados na pasta resources/js/components
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
